@@ -71,6 +71,16 @@
       <a name="label" val="Navio2"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(610,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(610,440)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
     <comp lib="0" loc="(860,260)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -95,16 +105,16 @@
       <a name="width" val="4"/>
     </comp>
     <comp lib="5" loc="(620,510)" name="Button"/>
+    <comp loc="(400,130)" name="Encoder"/>
     <comp loc="(400,60)" name="Encoder"/>
     <comp loc="(420,440)" name="Encoder"/>
-    <comp loc="(430,130)" name="Encoder"/>
     <wire from="(130,60)" to="(180,60)"/>
-    <wire from="(140,130)" to="(210,130)"/>
+    <wire from="(140,130)" to="(180,130)"/>
     <wire from="(140,440)" to="(200,440)"/>
+    <wire from="(400,130)" to="(510,130)"/>
     <wire from="(400,60)" to="(490,60)"/>
     <wire from="(420,440)" to="(420,450)"/>
     <wire from="(420,450)" to="(540,450)"/>
-    <wire from="(430,130)" to="(510,130)"/>
     <wire from="(490,170)" to="(490,430)"/>
     <wire from="(490,170)" to="(520,170)"/>
     <wire from="(490,430)" to="(540,430)"/>
